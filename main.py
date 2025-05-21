@@ -9,13 +9,13 @@ pygame.mixer.init()
 
 # Cargar sonidos asignados por dedo
 sounds = [
-    pygame.mixer.Sound("sounds/do.mp3"),     # 0 - Anular Derecho
-    pygame.mixer.Sound("sounds/re.mp3"),     # 1 - Medio Derecho
-    pygame.mixer.Sound("sounds/mi.mp3"),     # 2 - Índice Derecho
-    pygame.mixer.Sound("sounds/fa.mp3"),     # 3 - Índice Izquierdo
-    pygame.mixer.Sound("sounds/sol.mp3"),    # 4 - Medio Izquierdo
-    pygame.mixer.Sound("sounds/la.mp3"),     # 5 - Anular Izquierdo
-    pygame.mixer.Sound("sounds/si.mp3")      # 6 - Meñique Izquierdo
+    pygame.mixer.Sound("sound/do.mp3"),     # 0 - Anular Derecho
+    pygame.mixer.Sound("sound/re.mp3"),     # 1 - Medio Derecho
+    pygame.mixer.Sound("sound/mi.mp3"),     # 2 - Índice Derecho
+    pygame.mixer.Sound("sound/fa.mp3"),     # 3 - Índice Izquierdo
+    pygame.mixer.Sound("sound/sol.mp3"),    # 4 - Medio Izquierdo
+    pygame.mixer.Sound("sound/la.mp3"),     # 5 - Anular Izquierdo
+    pygame.mixer.Sound("sound/si.mp3")      # 6 - Meñique Izquierdo
 ]
 
 # Etiquetas de notas para mostrar en pantalla
