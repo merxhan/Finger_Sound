@@ -37,15 +37,15 @@ Permitir que el usuario reproduzca sonidos musicales en tiempo real al mover sus
 2. Instala las dependencias:
 
    ```bash
-   pip install opencv-python mediapipe pygame
+   pip install -r requirements.txt
    ```
    
 3. Coloca los archivos de sonido .mp3 dentro de la carpeta sounds/:
 
 4.	Ejecuta el script:
 
-    ````bash
-   python hand_music.py
+   ````bash
+   python main.py
    ````
 
 5.	Usa tus manos frente a la cámara para tocar las notas.
